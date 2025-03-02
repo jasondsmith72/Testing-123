@@ -1,0 +1,18 @@
+{
+  "name": "service-monitor",
+  "version": "1.0.0",
+  "description": "A simple service monitoring application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
