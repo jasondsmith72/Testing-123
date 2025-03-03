@@ -8,7 +8,31 @@ A simple service monitoring application for testing purposes.
 - Display uptime statistics
 - Send notifications for service outages
 
-## Installation
+## Quick Installation (Windows)
+
+For Windows users, we provide an automated installation script:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/jasondsmith72/Web-Service-monitor.git
+   cd Web-Service-monitor
+   ```
+
+2. **Run the installation script**
+   ```bash
+   install.bat
+   ```
+
+This script will:
+- Check for Node.js and npm
+- Install all dependencies
+- Create a default configuration file if none exists
+- Run tests to verify the installation
+- Offer to start the application immediately
+
+## Manual Installation
+
+If you prefer manual installation or are using a non-Windows system:
 
 1. **Clone the repository**
    ```bash
@@ -107,6 +131,7 @@ You can set different expected status codes for different services:
 - `config.js`: Configuration file
 - `package.json`: Project dependencies
 - `tests/`: Test cases
+- `install.bat`: Windows installation script
 
 ## Running Tests
 
