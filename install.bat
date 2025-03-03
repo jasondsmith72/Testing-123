@@ -48,7 +48,7 @@ echo.
 
 echo Creating example config file if none exists...
 if not exist config.js (
-    echo const defaultConfig = > config.example.js
+    echo // Configuration for Service Monitor > config.example.js
     echo module.exports = { >> config.example.js
     echo   // Services to monitor >> config.example.js
     echo   services: [ >> config.example.js
